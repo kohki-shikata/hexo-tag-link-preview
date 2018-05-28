@@ -50,6 +50,7 @@ async function getTag(options) {
       descriptions = util.htmlTag('div', { class: 'descriptions' }, descriptions);
 
       const tag = util.htmlTag('div', { class: 'link-area' },  image + descriptions);
+
       return util.htmlTag('a', { href: 'https://www.amazon.co.jp/gp/product/' + args[0], class: className, target: options.target, rel: options.rel }, tag);
     })
     .catch(function (error) {
@@ -78,6 +79,7 @@ async function getAmazon(options) {
       descriptions = util.htmlTag('div', { class: 'descriptions' }, descriptions);
 
       const tag = util.htmlTag('div', { class: 'link-area' },  image + descriptions);
+
       return util.htmlTag('a', { href: options.url, class: className, target: options.target, rel: options.rel }, tag);
     })
     .catch(function (error) {
