@@ -1,0 +1,61 @@
+{
+  "_from": "github:kohki-shikata/hexo-tag-link-preview",
+  "_id": "hexo-tag-link-preview@1.1.2",
+  "_inBundle": false,
+  "_location": "/hexo-tag-link-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "hexo-tag-link-preview@github:kohki-shikata/hexo-tag-link-preview",
+    "name": "hexo-tag-link-preview",
+    "escapedName": "hexo-tag-link-preview",
+    "rawSpec": "github:kohki-shikata/hexo-tag-link-preview",
+    "saveSpec": "github:kohki-shikata/hexo-tag-link-preview",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:kohki-shikata/hexo-tag-link-preview#d1062f45828490a1047582e7cdf6c0f9df996ef9",
+  "_spec": "hexo-tag-link-preview@github:kohki-shikata/hexo-tag-link-preview",
+  "_where": "C:\\Users\\kagamicg2016\\Documents\\git-repo\\2020",
+  "author": {
+    "name": "minamo",
+    "email": "minamo173dev@gmail.com",
+    "url": "https://minamo173.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/minamo173/hexo-tag-link-preview/issues",
+    "email": "minamo173dev@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hexo-util": "^0.6.3",
+    "open-graph-scraper": "^3.1.5"
+  },
+  "deprecated": false,
+  "description": "Embed a link preview on your Hexo article.",
+  "homepage": "https://github.com/minamo173/hexo-tag-link-preview#readme",
+  "keywords": [
+    "hexo",
+    "helper",
+    "plugin",
+    "tag",
+    "link",
+    "preview",
+    "image",
+    "ogp"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hexo-tag-link-preview",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/minamo173/hexo-tag-link-preview.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.2"
+}
